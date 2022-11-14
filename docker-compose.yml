@@ -5,4 +5,4 @@ services:
     image: ${DOCKER_REGISTRY-}demo
     build:
       context: .
-      dockerfile: demo/Dockerfile
+      dockerfile: Dockerfile
